@@ -8,5 +8,8 @@ dependencies = [
     "matplotlib>=3.10.8",
     "mysqlclient>=2.2.7",
     "pandas>=2.3.3",
+    "python-dotenv>=1.2.1",
+    "ruff>=0.14.13",
     "sqlalchemy>=2.0.45",
+    "ty>=0.0.12",
 ]

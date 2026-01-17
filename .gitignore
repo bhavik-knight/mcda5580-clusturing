@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# ignore env 
+.env
+
+
+# ignore sql file
+*.sql
+
