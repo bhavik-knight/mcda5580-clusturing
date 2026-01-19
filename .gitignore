@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 
+
 # Virtual environments
 .venv
 
@@ -20,3 +21,156 @@ wheels/
 # vscode, idea
 .code
 .idea
+
+
+# ======================
+# LaTeX GENERATED FILES
+# ======================
+
+# Auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+
+# Bibliography/Biber
+*.bcf
+*.run.xml
+
+# Glossaries
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+
+# Index
+*.idx
+*.ilg
+*.ind
+
+# Listings
+*.lol
+
+# MakeIndex
+*.mw
+
+# pgfplots
+*.nav
+*.snm
+*.vrb
+
+# ======================
+# PDF OUTPUT
+# ======================
+
+# Main PDF (optional - some commit it)
+*.pdf
+
+# Draft versions
+*-blx.bib
+*.dvi
+*.xdv
+
+# ======================
+# EDITOR/IDE FILES
+# ======================
+
+# TeXstudio
+*.autosave
+*.backup
+*.auxlock
+*.tuc
+
+# TeXnicCenter
+*.tps
+
+# Kile
+*.backup
+
+# Texmaker
+*.dep
+*.dpth
+
+# Vim
+*.swp
+*.swo
+*~
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ======================
+# OPERATING SYSTEM
+# ======================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ======================
+# TEMPORARY FILES
+# ======================
+
+# Temporary files
+*.tmp
+*.temp
+_region_.tex
+*.bak
+
+# Backup files
+*.backup
+*.old
+
+# ======================
+# PROJECT SPECIFIC
+# ======================
+
+# Python (if you have scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# R (if you have R scripts)
+.Rhistory
+.RData
+.Ruserdata
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Data files (large datasets)
+*.csv
+*.xlsx
+*.feather
+*.parquet
+*.h5
+*.hdf5
+
